@@ -1,0 +1,19 @@
+
+==============================================
+START : FUNC_BUILD_KERNEL
+==============================================
+
+build project=k
+build common config=msm8974_sec_defconfig 
+build variant config=msm8974pro_sec___defconfig 
+[33m
+Help
+./build_msm8974pro_kernel.sh $1
+  $1 : 
+  klte_eur
+  klte_att
+  klte_spr
+  klte_tmo
+  klte_vzw
+  klte_usc
+[0m
